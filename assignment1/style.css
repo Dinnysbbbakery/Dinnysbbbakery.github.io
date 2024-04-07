@@ -1,4 +1,13 @@
-
+.bar {
+    overflow: hidden;
+    background-color: #fdfdfd;
+    font-family: "Lilita One", sans-serif; 
+    font-size: 4rem;
+    color: #000000;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+  }
 body{
     background-color: #E4E6E6;
     font-family: "Madimi One", sans-serif; color: #313030;
@@ -80,3 +89,4 @@ p{
     padding-left: 30px;
 }
 
+  

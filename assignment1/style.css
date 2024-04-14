@@ -15,6 +15,7 @@ body{
     background-image: url(Screen\ Shot\ 2024-04-14\ at\ 3.23.04\ PM.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    /* To make the navbar stay to the top of the site */
     background-size: 60%;
     background-position: center;
     /* Used the human figure on the designer's website as the background, to reinforce that 
@@ -48,12 +49,9 @@ footer {
 h1{
     font-size: 4rem;
     color: #000000;
-    font-weight: 900;
-    font-weight: bolder;
-        font-family: "Lilita One", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        padding-left: 90px;
+    font-family: "Lilita One", sans-serif;
+    padding-left: 90px;
+    /* h1, h2 and all boxex will be aligned on the same line */
 }
  main {
     padding-top: 150px;

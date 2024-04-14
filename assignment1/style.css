@@ -11,9 +11,14 @@
 body{
     background-color: #E4E6E6;
     font-family: "Madimi One", sans-serif; color: #313030;
-    /* margin-left:90px; */
-    /* padding-left:90px; */
-    /* margin-top: 50px; */
+    /* A bold sans-serif font is choosen to match with the style of alnnn.com so as the choice of colour. */
+    background-image: url(Screen\ Shot\ 2024-04-14\ at\ 3.23.04\ PM.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 60%;
+    background-position: center;
+    /* Used the human figure on the designer's website as the background, to reinforce that 
+    the site is a response of his portfolio. */
 }
 .title {
     background-color: #fdfdfd;
@@ -27,15 +32,18 @@ footer {
     background-color: #fdfdfd;
     width: 100%;
     height: 60px;
-    padding-left: 640px;
+    text-align: center;
     padding-top: 18px;
-    bottom:0;
+    bottom:0; 
+    /* For no extra grey gap below the footer */
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-style: normal;
     margin-top: 40px;
     font-size: 1.3rem;
     color: #F6894B;
+    /* Orange is one of the few bright colours used on alnnn.com I want to use it as a highlight of the site
+    also I think it does a good match with the colour grey. */
 }
 h1{
     font-size: 4rem;
@@ -51,7 +59,6 @@ h1{
     padding-top: 150px;
     padding-left: 90px;
 }
-
 h2{
     font-style: italic;
     color: #F6894B;
@@ -71,8 +78,11 @@ h3{
 p{
     color: #333333;
     margin-left: 27px;
+    /* Made the paragraph to align with the question instead of the number to make the numbers to standout. */
     margin-top: 15px;
 }
+/* Two colours are used for the boxes to seperate each paragraph, also add some extra orange tot he site. */
+/* The height of each boxes differs so all text have the same top and bottom margin */
 .box1{
     background-color: #fdfdfd;
     height: 180px;
@@ -151,5 +161,4 @@ p{
     width: 1155px;
     padding-left: 30px;
 }
-
   

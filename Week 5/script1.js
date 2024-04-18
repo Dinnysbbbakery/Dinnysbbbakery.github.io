@@ -4,16 +4,20 @@ let shoppingCart=[
     {name: "Sneakers", price:80},
     {name: "Backpack", price:30},
 ];
+function calculateTotal(discount){
 let total =0;
 for(let i=0; i<4; i++){
 total=total+shoppingCart[i].price;
 console.log("total so far", total);
 }
 console,log("final total", total);
-let discount=0.1;
+// let discount=0.1;
 let discountPrice=0;
 if (total>100){
     discountPrice=total-total*discount;
 }
-console.log("discounted price", discountPrice);
+console.log("discount price", discountPrice);
+return null;
+}
+let value= calculateTotal(0.2);
 

@@ -116,6 +116,8 @@ body{
     font-family: "Nunito", sans-serif;
 }
 
+/* The footer is supposed to be at the very bottom but 
+its in the box too somehow */
 .footer{
     background-color: #730217;
     width: 100%;

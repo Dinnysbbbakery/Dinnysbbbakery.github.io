@@ -73,5 +73,51 @@ function increaseVolume()
     }
 }
 
+// fullscreen
+myVideo.addEventListener("doubleclick", goFullscreen);
 
+const fullscreen=document.querySelector("#fullscreen");
+console.log(fullscreen);
 
+fullscreen.addEventListener("click", goFullscreen);
+
+function goFullscreen(){
+    if(!document.fullscreenElement){
+        myVideo.requestFullscreen();
+    }else{
+        document.exitFullscreen();
+    }
+}
+
+// steps
+const step1=document.querySelector("#step1");
+console.log(step1);
+step1.addEventListener("click", gotoStep1);
+
+function gotoStep1(){
+    myVideo.currentTime=31.0;
+}
+
+const step2=document.querySelector("#step2");
+console.log(step2);
+step2.addEventListener("click", gotoStep2);
+
+function gotoStep2(){
+    myVideo.currentTime=62.0;
+}
+
+const step3=document.querySelector("#step3");
+console.log(step3);
+step3.addEventListener("click", gotoStep3);
+
+function gotoStep3(){
+    myVideo.currentTime=128.0;
+}
+
+const step4=document.querySelector("#step4");
+console.log(step4);
+step4.addEventListener("click", gotoStep4);
+
+function gotoStep4(){
+    myVideo.currentTime=157.0;
+}

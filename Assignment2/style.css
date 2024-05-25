@@ -47,11 +47,12 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    border:3px solid #ec7777;
-    width: 1000px;
+    width: 1224px;
+    padding-top: 10px;
+    gap: 0.5rem;
 }
 .progress-bar {
-    width: 200px;
+    width: 590px;
     height: 15px;
     background-color: #e5e5cb68;
     margin-top: 8px;
@@ -60,11 +61,21 @@
 
   .progress-bar span {
     display: block;
-    height: 200px;
+    height: 400px;
     background-color: coral;
     width: 0;
     transition: width 0.3s ease;
   }
+
+  .container3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 1224px;
+    padding-top: 10px;
+    gap: 0.5rem;
+    border:3px solid #ec7777;
+}
 
 
 

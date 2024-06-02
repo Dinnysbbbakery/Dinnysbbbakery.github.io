@@ -1,0 +1,60 @@
+body {
+    background-color: #1a120b;
+    text-align: center;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #e5e5cb;
+    /* color: #3c2a21; */
+    gap: 1.5rem;
+  }
+
+  .title{
+    font-family: seymour one;
+    font-size: 3rem;
+    padding-bottom: 50px;
+    padding-top: 40px;
+  }
+  .box{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-family: rubik;
+    height: 520px;
+  }
+  
+  .leftbox {
+    background-color: purple;
+    cursor: pointer;
+    width: 305px;
+    min-height: 900px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .dropbox {
+    border: 2px dashed #e5e5cb7a;
+    cursor: pointer;
+    width: 900px;
+    min-height: 900px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .rightbox {
+    background-color: purple;
+    cursor: pointer;
+    width: 305px;
+    min-height: 900px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }

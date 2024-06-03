@@ -6,6 +6,7 @@ body {
     color: #e5e5cb;
     /* color: #3c2a21; */
     gap: 1.5rem;
+   
   }
 
   .title{
@@ -26,7 +27,7 @@ body {
   .left {
     cursor: pointer;
     width: 305px;
-    min-height: 900px;
+    min-height: 850px;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -36,10 +37,10 @@ body {
   }
   
   .centre {
-    border: 2px dashed #e5e5cb7a;
+    border: 4px dashed #e5e5cb7a;
     cursor: pointer;
-    width: 900px;
-    min-height: 900px;
+    width: 800px;
+    min-height: 400px;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -51,7 +52,7 @@ body {
   .right {
     cursor: pointer;
     width: 305px;
-    min-height: 900px;
+    min-height: 850px;
     padding: 10px;
     display: flex;
     justify-content: center;

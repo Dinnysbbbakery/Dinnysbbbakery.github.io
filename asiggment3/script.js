@@ -1,7 +1,5 @@
 const close =document.querySelector(".ready");
-const box =document.querySelector(".rules").style.display="none";
-
-
+const box =document.querySelector(".rules")
 
 close.addEventListener('click', function(){
     box.style.display="none";

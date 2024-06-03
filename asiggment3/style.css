@@ -12,15 +12,14 @@ body {
 .rules{
     background-color: bisque;
     width: 450px;
-    padding: 30px 40px;
+    padding: 35px 40px;
     position: absolute;
+    left: 35%;
     /* transform: translate(-50%, -50%); */
-    border-radius: 8px;
-    left: 50%;
-    right: 50%;
-    top: 400px;
-    /* padding-top: 450px; */
+    border-radius: 10px;
+    top: 250px;
     color: black;
+    border: black;
 }
 
 .rules h1{
@@ -31,6 +30,7 @@ body {
 .rules p{
     font-family: rubik;
     margin: 20px;
+    line-height: 23px;
 }
 
 .rules button{
@@ -38,7 +38,9 @@ body {
     background-color: darkred;
     cursor: pointer;
     font-size: 1.3rem;
-    padding: 5px;
+    padding: 7px;
+    border: none;
+    
 }
   .title{
     font-family: seymour one;
@@ -78,6 +80,7 @@ body {
     align-items: center;
     cursor: pointer;
     flex-direction: row;
+    border-radius: 10px
   }
 
   .right {

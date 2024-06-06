@@ -5,7 +5,52 @@ close.addEventListener('click', function(){
     box.style.display="none";
 });
 
+const item1 = document.querySelector("#end-gun");
+console.log(item1);
 
+let dragItem1 = null;
+
+item1.addEventListener("dragstart", startDragItem1);
+
+function startDragItem1() {
+    console.log("item 1 is dragged");
+    dragItem1 = item1;
+}
+
+const position3 = document.querySelector(".position3");
+console.log(position3);
+
+const dropEndGun = document.querySelector("#drop-end-gun");
+console.log(dropEndGun);
+
+dropEndGun.addEventListener("dragover", endDragItem1);
+
+function endDragItem1(event) {
+  event.preventDefault();
+}
+
+dropEndGun.addEventListener("drop", handleDropEndGun);
+
+function handleDropEndGun()
+{
+    if(dragItem1)
+        {
+            const src = dragItem1.src;
+            console.log(src);
+            dropEndGun.src = src;
+        }
+}
+
+// function handleDropItem1() {
+//     console.log("dragged item", dragItem1);
+//   if (dragItem1) {
+//     const src = dragItem1.src;
+//     console.log("dragged image", src);
+//     position3.innerHTML = `<img src="${src}" alt="">`;
+//     console.log(position3);
+//     dragItem1 = null;
+//   }
+// }
 
 
 

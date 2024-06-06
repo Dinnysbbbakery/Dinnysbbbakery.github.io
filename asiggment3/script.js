@@ -38,6 +38,7 @@ function handleDropEndGun()
             const src = dragItem1.src;
             console.log(src);
             dropEndGun.src = src;
+            dropEndGun.style.translate= "-50px";
         }
 }
 

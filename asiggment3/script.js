@@ -40,7 +40,6 @@ function handleDropEndGun()
             const src = dragItem1.src;
             console.log(src);
             dropEndGun.src = src;
-            // dropEndGun.style.translate= "-50px";
         }
 }
 
@@ -110,6 +109,14 @@ function handleDropStartGun(){
         console.log(src);
         dropStartGun.src=src;
     }
+}
+
+const finish=document.querySelector(".finish");
+
+finish.addEventListener("click", merge);
+
+function merge(){
+     dropEndGun.style.translate= "-50px";
 }
 
 

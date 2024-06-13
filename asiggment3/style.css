@@ -103,6 +103,7 @@ body {
  .item2{
     width: 200px;
     rotate: 20deg;
+    padding: 10px;
  }
 
  .item3{
@@ -126,20 +127,33 @@ body {
  }
 
  .position1{
-    width: 330px;
+    width: 50px;
  }
 
  .position2{
-    width: 330px;
+    /* width: 330px; */
     padding-top: 55px;
  }
 
  .position3{
-    width: 330px;
+    /* width: 330px; */
     padding-top: 70px;
  }
  
- #drop-end-gun
-{
+ #drop-end-gun{
     transition: translate 0.8s ease;
+}
+ 
+#drop-start-gun{
+   transition: translate 0.8s ease;
+}
+ 
+#drop-middle-gun{
+   transition: translate 0.8s ease;
+}
+
+.finish{
+   font-family: seymour one;
+    font-size: 2rem;
+    padding: 10px;
 }

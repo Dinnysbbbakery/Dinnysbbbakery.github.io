@@ -117,7 +117,7 @@ finish.addEventListener("click", merge);
 
 function merge(){
      dropEndGun.style.translate= "-80px";
-     dropStartGun.style.translate= "97px";
+     dropStartGun.style.translate= "98px";
 }
 
 

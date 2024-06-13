@@ -148,9 +148,7 @@ body {
    transition: translate 0.8s ease;
 }
  
-#drop-middle-gun{
-   transition: translate 0.8s ease;
-}
+
 
 .finish{
    font-family: seymour one;

@@ -116,60 +116,9 @@ const finish=document.querySelector(".finish");
 finish.addEventListener("click", merge);
 
 function merge(){
-     dropEndGun.style.translate= "-50px";
+     dropEndGun.style.translate= "-80px";
+     dropStartGun.style.translate= "97px";
 }
-
-
-
-// function handleDropItem1() {
-//     console.log("dragged item", dragItem1);
-//   if (dragItem1) {
-//     const src = dragItem1.src;
-//     console.log("dragged image", src);
-//     position3.innerHTML = `<img src="${src}" alt="">`;
-//     console.log(position3);
-//     dragItem1 = null;
-//   }
-// }
-
-
-
-// let draggedElement=null;
-
-// const one=document.querySelector(".item2");
-// const two=document.querySelector(".item5");
-// const three=document.querySelector(".item6");
-// const centre1=document.querySelector(".position1");
-// const centre2=document.querySelector(".position2");
-// const centre3=document.querySelector(".position3");
-
-// one.addEventListener("dragstart", startDrag);
-// two.addEventListener("dragstart", startDrag);
-
-// function startDrag(){
-//     draggedElement=one;
-// }
-
-// centre1.addEventListener("dragover", endDrag);
-
-// function endDrag(event){
-//     event.preventDafault();
-// }
-
-// centre1.addEventListener("drop", handleDrop);
-
-// function handleDrop(){
-//     if (draggedElement){
-//         const 
-//     }
-// }
-
-// function endDrag(){
-//     centre1.prepend(one);
-// }
-
-
-
 
 
 
